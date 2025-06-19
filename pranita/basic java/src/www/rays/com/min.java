@@ -1,0 +1,14 @@
+package www.rays.com;
+
+public class min {
+	public static void main (String [] args) {
+		int c = 40;
+		int d = 30;
+		if ( c < d ) {
+		System.out.println("min:" + c);
+	}else {
+			System.out.println("min:" + d);
+	}
+
+}
+}

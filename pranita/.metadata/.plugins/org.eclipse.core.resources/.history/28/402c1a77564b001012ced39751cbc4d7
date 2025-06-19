@@ -1,0 +1,14 @@
+package www.rays.com;
+
+public class Teststring {
+	public static void main (String[]args) {
+	
+		String name = "Pranita Gayakwad";
+		
+		System.out.println(" name: " + name);
+		System.out.println(" length:" + name.length());
+		System.out.println("7th char is: " + name.charAt(6));
+	    System.out.println("index of a:" + name.indexOf('a'));	
+	}
+
+}

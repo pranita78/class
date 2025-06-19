@@ -1,0 +1,13 @@
+package www.rays.com;
+
+public class minno {
+	public static void main (String[] args) {
+		int a = 500;
+		int b = 100;
+		if (a < b ) {
+			System.out.println("min:" + a);
+			System.out.println("min:" + b);
+		}
+	}
+
+}

@@ -1,0 +1,8 @@
+package www.rays.com;
+
+public class oddeven {
+	public static void main (String[]args) {
+		
+	}
+
+}

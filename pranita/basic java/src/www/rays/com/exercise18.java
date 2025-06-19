@@ -1,0 +1,17 @@
+package www.rays.com;
+
+public class exercise18 {
+	public static void main (String []args ) {
+		int [] arr = { 15, 17, 21, 14, 7, 8, };
+		int num = 1;
+		int temp = -1;
+		for (int i = 0; i < arr.length; i++) {
+			if (num  == arr [i]) {
+				temp = i;
+				break;
+			}
+		}
+		System.out.println(temp);
+	}
+
+}

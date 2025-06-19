@@ -1,0 +1,19 @@
+package www.rays.com;
+
+public class firstlargest {
+	
+	public static void main (String[]args) {
+	// First largest
+	int[] a = {59, 49, 52, 888, 41, 2};
+	int b = a[0];
+	
+	for (int i = 0; i < a.length; i++) {
+		if ( a [i] > b ) {
+			b = a[i];
+			System.out.println("Largest No is " + b );
+		}
+	}
+
+	
+
+}
